@@ -25,15 +25,15 @@ Setelah kalian mempelajari semua modul yang telah diberikan, Loid ingin meminta 
 ### Perhitungan VLSM
 Berikut adalah topologi dan pembagian subnet
 
-![image](Images/topologi_VLSM.png)
+![image](images/topologi_VLSM.png)
 
 Berikut adalah Tree yang sudah kita buat
 
-![](Images/tree_VLSM.png)
+![](images/tree_VLSM.png)
 
 Berikut adalah Perhitungannya
 
-![](Images/perhitungan_VLSM.png)
+![](images/perhitungan_VLSM.png)
 
 ### Konfigurasi Network setiap node
 [ Strix ]
