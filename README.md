@@ -315,17 +315,17 @@ iptables -A PREROUTING -t nat -p tcp --dport 443 -d 192.175.7.139 -m statistic -
 
 ## No 6
 iptables6.sh (ALL ROUTER & SERVER) <br>
-- logging
+- logging <br>
 	iptables -N LOGGING  <br>
 	iptables -A INPUT -j LOGGING  <br>
 	iptables -A OUTPUT -j LOGGING <br>
 	iptables -A LOGGING -m limit --limit 2/min -j LOG --log-prefix "IPTables-Dropped: " --log-level 4 <br>
 	iptables -A LOGGING -j DROP <br>
 
-- rsyslog
+- rsyslog <br>
 	echo 'kern.warning /var/log/iptables.log' >> /etc/rsyslog.conf
 
-- rsyslog restart
+- rsyslog restart <br>
 	/etc/init.d/rsyslog restart
 
 ## Kendala
