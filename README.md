@@ -1,4 +1,4 @@
-# Jarkom-Modul-5-B05-2021      
+# Jarkom-Modul-5-T7-2021      
 ### Laporan Resmi Pengerjaan Sesi Lab Jaringan Komputer     
         
 #### Nama Anggota Kelompok :      
@@ -314,7 +314,8 @@ iptables -A PREROUTING -t nat -p tcp --dport 443 -d 192.175.7.139 -m statistic -
 ```
 
 ## No 6
-iptables6.sh (ALL ROUTER & SERVER) <br>
+iptables6.sh ,br>
+(ALL ROUTER & SERVER) <br>
 - logging <br>
 	iptables -N LOGGING  <br>
 	iptables -A INPUT -j LOGGING  <br>
@@ -327,6 +328,6 @@ iptables6.sh (ALL ROUTER & SERVER) <br>
 
 - rsyslog restart <br>
 	/etc/init.d/rsyslog restart
+![Screenshot_2022-12-10_21_04_48](https://user-images.githubusercontent.com/91010605/206859170-abb2aa61-c746-4756-a5ee-a0d1ef1331c5.png)
 
-## Kendala
-Tidak Ada
+
